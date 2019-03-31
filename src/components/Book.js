@@ -3,16 +3,15 @@ import React, { Component } from 'react';
 export default class Book extends Component {
 	constructor(props) {
 		super(props);
-
-		this.handleClick = this.handleClick.bind(this);
 	}
 	state = {
 		count: 0
 	};
-	handleClick() {
+
+	handleClick = () => {
 		console.log('You Clicked Me!');
 		console.log(this.state.count);
-	}
+	};
 
 	render() {
 		const { img, title, author } = this.props.info;
