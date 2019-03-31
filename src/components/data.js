@@ -16,6 +16,12 @@ const books = [
 		img: 'https://m.media-amazon.com/images/I/91G2aMQuu9L._SX140_.jpg',
 		title: "Harry Potter and the Sorceror's Stone",
 		author: 'J.K. Rowling'
+	},
+	{
+		id: 4,
+		img: 'https://m.media-amazon.com/images/I/91G2aMQuu9L._SX140_.jpg',
+		title: "Harry Potter and the Sorceror's Stone",
+		author: 'J.K. Rowling'
 	}
 ];
 
